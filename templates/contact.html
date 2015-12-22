@@ -1,0 +1,39 @@
+<div class = "container">
+<h1>Who Am I?</h1>
+<h2>{{aboutMe.name}}</h2>
+<img src="img/{{aboutMe.picture}}">
+<p>Email:{{aboutMe.email}}</p>
+<div class = "container" ng-repeat= "things in moreAMData">
+	<div class ="row">
+		<h2>{{things.name}}</h2>
+		<p>{{things.about}}</p>
+		<img src="img/{{things.img}}">
+	</div>
+</div>
+
+	<form name = "myForm">
+		<div class = 'form-group'>
+			<label>Name</label>
+			<input name="name" ng-model="name" class="form-control" placeholder = "Type your name here">
+		</div>
+		<div class = 'form-group'>
+			<label>Reason you need me to contact you</label>
+			<input name = "why" ng-model = "why" placeholder="Why should I contact you?" class = "form-control">
+		</div>
+		<div class = 'form-group'>
+			<label>Phone Number</label>
+			<input name = "phone" ng-model = "phone" class = "form-control" placeholder="What is your phone #?">
+		</div>
+		<div class = 'form-group'>
+			<label>Email Address</label>
+			<input class ="form-control" name ="email" ng-model="email" placeholder ="What is your email address?">
+		</div>
+		<div class ='form-group'>
+			<label>Ideal Time</label>
+			<input class ="form-control" name="ideal" ng-model="ideal" placeholder="What is the best time to contact you?">
+		</div>
+		<div>
+			<button ng-click=submit() ng-disabled="myForm.$invalid" type="submit" class="btn btn-primary">Submit</button>
+		</div>
+	</form>
+</div>

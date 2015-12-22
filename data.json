@@ -1,0 +1,37 @@
+{
+	"aboutMe": {
+		"name":"Jacob Baquian",
+		"picture":"me.JPG",
+		"email":"jlb959@uw.edu",
+		"moreAM":[
+				{	"name":"Major:Chemistry",
+				 	"about":"BS-ACS track"
+				},
+				{
+					"name":"Proud member of the Husky Marching Band",
+					"about":"Husky Saxophone since 2013",
+					"img":"hmb.jpg"
+				}
+		]
+	},
+	"projects":[
+		{
+			"name":"Dawg Coffee",
+			"about":"For this assignment we built a webpage for a fictious coffee shop that is web and mobile friendly.",
+			"link":"student.washington.edu/jlb959/info343/dawg-coffee",
+			"picture":"dawg-coffee.png"
+		},
+		{
+			"name":"Spotify Challegne",
+			"about":"In this assignment we built an angular application which was based on the Spotify API and were able to take it in whatever direction we saw fit.",
+			"link":"student.washington.edu/jlb959/info343/spotify-template",
+			"picture":"spotify.png"
+		},
+		{
+			"name":"Group Project",
+			"about":"This is our group project from Info343, we redesigned a current website to update it's look and efficiency.  One group member also made a d3 object which takes data from the WHO.",
+			"link":"http://students.washington.edu/jshill/info343/uganda-village-project/#/",
+			"picture":"uvp.png"
+		}
+	]
+}

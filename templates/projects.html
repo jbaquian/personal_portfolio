@@ -1,0 +1,9 @@
+<div ng-repeat="projects in projectsData" class = "container">
+	<div class = "row">
+		<img ng-src= img/{{projects.picture}}>
+	</div>
+	<div class = "row">
+		<h1>{{projects.name}}</h1>
+		<p>{{projects.about}} Found at <a ng-href={{projects.link}}>{{projects.link}}</a></p>
+	</div>
+</div>
